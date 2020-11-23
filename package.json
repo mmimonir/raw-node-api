@@ -1,8 +1,10 @@
 {
+  "main": "index.js",
   "dependencies": {
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "start": "nodemon index"
+    "start": "NODE_ENV=staging nodemon index",
+    "production": "NODE_ENV=production nodemon index"
   }
 }
