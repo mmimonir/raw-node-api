@@ -17,9 +17,9 @@ const app = {};
 //     console.log(err);
 //   }
 // );
-data.delete("test", "newFile", (err) => {
-  console.log(err);
-});
+// data.delete("test", "newFile", (err) => {
+//   console.log(err);
+// });
 
 // handle request response
 app.handleReqRes = handleReqRes;
